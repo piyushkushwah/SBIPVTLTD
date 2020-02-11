@@ -217,6 +217,13 @@ select {
 select {
   word-wrap: normal; }
 
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
 button,
 [type="button"],
 [type="reset"],
@@ -9988,8 +9995,8 @@ textarea.form-control {
   position: fixed;
   bottom: 0;
   right: 10px;
-  width: 23vw;
-  height: 0;
+  width: 342px;
+  height: 400px;
   background-color: white;
   border-top-left-radius: 8px;
   z-index: 1000;
@@ -10001,10 +10008,11 @@ textarea.form-control {
 }
 
 .popUp-support-close{
-  width: 1.5vw;
-  height: 1.5vw;
+  width: 28px;
+  height: 28px;
   position: absolute;
   right: -5px;
   top: -1px;
   cursor: pointer;
 }
+
