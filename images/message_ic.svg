@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="63" height="63" viewBox="0 0 63 63">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#00bdd3"/>
+      <stop offset="0.463" stop-color="#2f7ff5"/>
+      <stop offset="0.498" stop-color="#327af8"/>
+      <stop offset="1" stop-color="#6320de"/>
+    </linearGradient>
+    <filter id="Ellipse_363" x="0" y="0" width="63" height="63" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_6760" data-name="Group 6760" transform="translate(-1370 529)">
+    <g transform="matrix(1, 0, 0, 1, 1370, -529)" filter="url(#Ellipse_363)">
+      <circle id="Ellipse_363-2" data-name="Ellipse 363" cx="16.5" cy="16.5" r="16.5" transform="translate(15 12)" fill="url(#linear-gradient)"/>
+    </g>
+    <g id="whatsapp" transform="translate(1393 -508.95)">
+      <path id="Path_1433" data-name="Path 1433" d="M4.141,15.1a8.84,8.84,0,0,0,4.39,1.155,8.4,8.4,0,0,0,8.592-8.129A8.4,8.4,0,0,0,8.531,0,8.344,8.344,0,0,0,.006,8.129a7.83,7.83,0,0,0,1.216,4.2L0,16.264ZM1.009,8.129A7.364,7.364,0,0,1,8.531.953,7.4,7.4,0,0,1,16.12,8.129a7.4,7.4,0,0,1-7.589,7.177,7.788,7.788,0,0,1-4.046-1.121l-.193-.117-2.809.787.829-2.668L2.189,12A6.914,6.914,0,0,1,1.009,8.129Zm0,0" fill="#fff"/>
+    </g>
+  </g>
+</svg>
