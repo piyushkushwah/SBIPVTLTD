@@ -497,9 +497,11 @@
 }
 .icon-twitter:before {
   content: "\f099";
+  color: white;
 }
 .icon-facebook:before {
   content: "\f09a";
+  color: white;
 }
 .icon-facebook-f:before {
   content: "\f09a";
