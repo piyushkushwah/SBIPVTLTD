@@ -217,7 +217,6 @@ select {
 select {
   word-wrap: normal; }
 
-
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
   -webkit-appearance: none;
@@ -9996,7 +9995,7 @@ textarea.form-control {
   bottom: 0;
   right: 10px;
   width: 342px;
-  height: 400px;
+  height: 350px;
   background-color: white;
   border-top-left-radius: 8px;
   z-index: 1000;
@@ -10005,6 +10004,14 @@ textarea.form-control {
   -webkit-box-shadow:  0 0 10px #000000;
   box-shadow:          0 0 10px #000000;
   border-top-right-radius: 12px;
+}
+
+::placeholder{
+  font-size: 15px;
+}
+
+input{
+  font-size: 15px;
 }
 
 .popUp-support-close{
@@ -10016,3 +10023,11 @@ textarea.form-control {
   cursor: pointer;
 }
 
+.project2-images{
+  box-shadow: 2px 2px 3px 3px rgba(128, 128, 128, 0.38);
+  border: none;
+  transition-duration: 2s;
+}
+.project2-images:hover{
+  transform: scale(1.1);
+}

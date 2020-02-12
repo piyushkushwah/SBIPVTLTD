@@ -59,7 +59,7 @@
 		});
 		$('#contact-us-support-open').click(function (e) {
 			$('.popUp-support-close').css('height','28px');
-			$('.popUp-support').css('height','400px');
+			$('.popUp-support').css('height','350px');
 			$('.popUp-support-close').css('height','28px');
 		});
 		$('.popUp-support-close').click(function (e) {
@@ -67,6 +67,35 @@
 			$('.popUp-support').css('height','0');
 			$('.popUp-support-close').css('height','0');
 		});
+		const project2Images = [ 'https://res.cloudinary.com/aman-anand/image/upload/v1581452938/shivbhairav/mainProj/madanpur/madanpur_plotting_map-1_dkdlip.png',
+			'https://res.cloudinary.com/aman-anand/image/upload/v1581452932/shivbhairav/mainProj/madanpur/madanpur_schedule-2_ves5ev.png',
+			'https://res.cloudinary.com/aman-anand/image/upload/v1581452949/shivbhairav/mainProj/madanpur/madanpur_village_map-1_wuwumd.png',
+			'https://res.cloudinary.com/aman-anand/image/upload/v1581452938/shivbhairav/mainProj/madanpur/scan0998-1_tvjcgz.png' ];
+		for(let i = 0; i< project2Images.length;i++){
+		$('#project2-images').append(`<div class="col-lg-4  p-3" >
+                <a href="${project2Images[i]}" target="_blank">
+                <img src="${project2Images[i]}"  class="project2-images" 
+                style="width: 20rem;height: 15rem;object-fit: contain" alt="">
+                </a>
+            </div>`);
+		}
+		const project1Images = [ 'https://res.cloudinary.com/aman-anand/image/upload/v1581452076/shivbhairav/mainProj/anandVihar/anand_vihar_schedule-1_jdjwdo.png',
+			'https://res.cloudinary.com/aman-anand/image/upload/v1581452059/shivbhairav/mainProj/anandVihar/anand_vihar_schedule-3_aajll6.png',
+			'https://res.cloudinary.com/aman-anand/image/upload/v1581452046/shivbhairav/mainProj/anandVihar/av01_mthf5v.png',
+			'https://res.cloudinary.com/aman-anand/image/upload/v1581452069/shivbhairav/mainProj/anandVihar/av02_nuh40n.png',
+			'https://res.cloudinary.com/aman-anand/image/upload/v1581452077/shivbhairav/mainProj/anandVihar/av03_o1bijc.png',
+			'https://res.cloudinary.com/aman-anand/image/upload/v1581452065/shivbhairav/mainProj/anandVihar/kolya_schedule_2_ufzpbf.png',
+			'https://res.cloudinary.com/aman-anand/image/upload/v1581450565/shivbhairav/mainProj/anandVihar/Scan1-min-min_yd22cc.jpg',
+			'https://res.cloudinary.com/aman-anand/image/upload/v1581450548/shivbhairav/mainProj/anandVihar/Scan10001-min-min_e8maan.jpg' ];
+		for(let i = 0; i< project1Images.length;i++){
+		$('#project1-images').append(`<div class="col-lg-4  p-3" >
+                <a href="${project1Images[i]}" target="_blank">
+                <img src="${project1Images[i]}"  class="project2-images" 
+                style="width: 20rem;height: 20rem;object-fit: cover" alt="">
+                </a>
+            </div>`);
+		}
+
 
 	});
 
