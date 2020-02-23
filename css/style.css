@@ -8790,7 +8790,7 @@ h1, h2, h3, h4, h5,
       color: #000000;
       margin-bottom: 5px; }
     .staff .text .position {
-      color: #fff;
+      color: grey!important;
       display: block;
       font-weight: 500;
       display: inline-block;
