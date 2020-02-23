@@ -3,6 +3,14 @@
  	easing: 'slide'
  });
 
+ // window.recaptchaVerifier = new firebase.auth.RecaptchaVerifier('sign-in-button', {
+ // 'size': 'invisible',
+	//  'callback': function(response) {
+	//  // reCAPTCHA solved, allow signInWithPhoneNumber.
+	//  onSignInSubmit();
+ // }
+ // });
+
 (function($) {
 
 	"use strict";
@@ -35,7 +43,15 @@
 			}else{
 				$('#email').css('border-color','grey');
 			}
-			if($('#name').val() !== '' && $('#mobileNo').val() !== '' &&  $('#email').val() !== ''&&validateEmail($('#email').val())){
+			if($('#name').val() !== '' && $('#mobileNo').val() !== '' &&validateEmail($('#email').val())){
+				window.recaptchaVerifier = new firebase.auth.RecaptchaVerifier('recaptcha-container');
+				firebase.auth().signInWithPhoneNumber('+91'+$('#mobileNo').val(), window.recaptchaVerifier)
+					.then(function(confirmationResult) {
+						window.confirmationResult = confirmationResult;
+						if(confirmationResult){
+							$('#recaptcha-container').hide();
+						}
+					});
 				$('#name').hide(200);
 				$('#mobileNo').hide(200);
 				$('#email').hide(200);
@@ -53,6 +69,17 @@
 			$('.popUp-support').hide(500);
 			$('.popUp').hide(500);
 				$('#otp').css('border-color','grey');
+				var data = {
+					name:$('#name').val(),
+					email:$('#email').val(),
+					phone:$('#mobileNo').val()
+				};
+				$.post('https://shivbhairavinfrastructures.com/apis/queries/',data,function (e) {
+					if(e.success === 1){
+						alert('Successfully Sent');
+						// window.location.reload();
+					}
+				});
 			}else{
 				$('#otp').css('border-color','red');
 			}
@@ -67,6 +94,7 @@
 			$('.popUp-support').css('height','0');
 			$('.popUp-support-close').css('height','0');
 		});
+
 		const project2Images = [ 'https://res.cloudinary.com/aman-anand/image/upload/v1581452938/shivbhairav/mainProj/madanpur/madanpur_plotting_map-1_dkdlip.png',
 			'https://res.cloudinary.com/aman-anand/image/upload/v1581452932/shivbhairav/mainProj/madanpur/madanpur_schedule-2_ves5ev.png',
 			'https://res.cloudinary.com/aman-anand/image/upload/v1581452949/shivbhairav/mainProj/madanpur/madanpur_village_map-1_wuwumd.png',
@@ -95,8 +123,6 @@
                 </a>
             </div>`);
 		}
-
-
 	});
 
 
@@ -342,4 +368,3 @@
 
 
 })(jQuery);
-

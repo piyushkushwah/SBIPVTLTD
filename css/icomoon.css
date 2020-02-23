@@ -1792,6 +1792,7 @@
 }
 .icon-whatsapp:before {
   content: "\f232";
+  color: white;
 }
 .icon-server:before {
   content: "\f233";
