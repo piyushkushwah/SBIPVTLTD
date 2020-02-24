@@ -10031,3 +10031,9 @@ input{
 .project2-images:hover{
   transform: scale(1.1);
 }
+#custom-open-map  {
+  cursor: pointer;
+  }
+#custom-open-map-main-office  {
+  cursor: pointer;
+  }
