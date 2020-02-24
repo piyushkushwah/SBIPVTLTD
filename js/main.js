@@ -24,11 +24,24 @@
     scrollProperty: 'scroll'
   });
 
+  function openMap(){
+
+  }
+
 	function validateEmail(email) {
 		var re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
 		return  re.test(String(email).toLowerCase());
 	}
 	$('document').ready(function ($) {
+		$('#custom-open-map').click(function(e){
+			window.open('https://www.google.com/maps/search/?api=1&query=23.394334,85.331864', '_blank');
+
+		});
+		$('#custom-open-map-main-office').click(function(e){
+			window.open('https://www.google.com/maps/search/?api=1&query=23.636494, 85.284578', '_blank');
+
+		});
+
 		$('.popUp').click(function (e) {
 			$(this).css('display','none');
 			$('.popUp-support-close').css('height','28px');
