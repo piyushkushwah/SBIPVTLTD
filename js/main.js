@@ -108,12 +108,14 @@
  			$('.popUp-support-close').css('height', '0');
  		});
 
- 		const project2Images = ['https://res.cloudinary.com/aman-anand/image/upload/v1582530879/shivBhairav2020/projects/madanpur/madanpur_plotting_map-1_dkdlip_mndq3y.png',
-			 
- 			'https://res.cloudinary.com/aman-anand/image/upload/v1582530880/shivBhairav2020/projects/madanpur/scan0998-1_tvjcgz_dlqmdq.png',
- 			
-			 'https://res.cloudinary.com/aman-anand/image/upload/v1582530879/shivBhairav2020/projects/madanpur/madanpur_village_map-1_wuwumd_ytrads.png',
+ 		const project2Images = [
+			'https://res.cloudinary.com/aman-anand/image/upload/v1582530879/shivBhairav2020/projects/madanpur/madanpur_village_map-1_wuwumd_ytrads.png',
+			 'https://res.cloudinary.com/aman-anand/image/upload/v1582805251/shivBhairav2020/projects/madanpur/madanpur_plotting_map-1_2_ssjfsj.png',
 			 'https://res.cloudinary.com/aman-anand/image/upload/v1582530879/shivBhairav2020/projects/madanpur/madanpur_schedule-2_ves5ev_dyndt1.png',
+ 			'https://res.cloudinary.com/aman-anand/image/upload/v1582530880/shivBhairav2020/projects/madanpur/scan0998-1_tvjcgz_dlqmdq.png'
+ 			
+			 
+			 
  		];
  		for (let i = 0; i < project2Images.length; i++) {
  			$('#project2-images').append(`<div class="col-lg-4  p-3" >
@@ -129,9 +131,10 @@
  			'https://res.cloudinary.com/aman-anand/image/upload/v1582530878/shivBhairav2020/projects/anandVihar/anand_vihar_schedule-1_jdjwdo_pvlcn4.png',
  			'https://res.cloudinary.com/aman-anand/image/upload/v1582530878/shivBhairav2020/projects/anandVihar/kolya_schedule_2_ufzpbf_ujmiki.png',
  			'https://res.cloudinary.com/aman-anand/image/upload/v1582530878/shivBhairav2020/projects/anandVihar/anand_vihar_schedule-3_aajll6_xc5gpg.png',
- 			'https://res.cloudinary.com/aman-anand/image/upload/v1582530879/shivBhairav2020/projects/anandVihar/av01_mthf5v_oymk3r.png',
-			 'https://res.cloudinary.com/aman-anand/image/upload/v1582530878/shivBhairav2020/projects/anandVihar/Scan10001-min-min_e8maan_sodpfe.jpg',
-			 'https://res.cloudinary.com/aman-anand/image/upload/v1582530877/shivBhairav2020/projects/anandVihar/Scan1-min-min_yd22cc_vcortj.jpg'
+			 'https://res.cloudinary.com/aman-anand/image/upload/v1582805038/shivBhairav2020/projects/anandVihar/anandviharPlotting_gmvulf.png',
+			 'https://res.cloudinary.com/aman-anand/image/upload/v1582530877/shivBhairav2020/projects/anandVihar/Scan1-min-min_yd22cc_vcortj.jpg',
+			 'https://res.cloudinary.com/aman-anand/image/upload/v1582530878/shivBhairav2020/projects/anandVihar/Scan10001-min-min_e8maan_sodpfe.jpg'
+			 
  		];
  		// const project1Images = ['https://res.cloudinary.com/aman-anand/image/upload/v1582530877/shivBhairav2020/projects/anandVihar/Scan1-min-min_yd22cc_vcortj.jpg',
  		// 	'https://res.cloudinary.com/aman-anand/image/upload/v1582530878/shivBhairav2020/projects/anandVihar/Scan10001-min-min_e8maan_sodpfe.jpg',
