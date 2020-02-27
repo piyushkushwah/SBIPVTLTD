@@ -110,9 +110,10 @@
 
  		const project2Images = [
 			'https://res.cloudinary.com/aman-anand/image/upload/v1582530879/shivBhairav2020/projects/madanpur/madanpur_village_map-1_wuwumd_ytrads.png',
-			 'https://res.cloudinary.com/aman-anand/image/upload/v1582805251/shivBhairav2020/projects/madanpur/madanpur_plotting_map-1_2_ssjfsj.png',
+			'https://res.cloudinary.com/aman-anand/image/upload/v1582530880/shivBhairav2020/projects/madanpur/scan0998-1_tvjcgz_dlqmdq.png',
+			 
 			 'https://res.cloudinary.com/aman-anand/image/upload/v1582530879/shivBhairav2020/projects/madanpur/madanpur_schedule-2_ves5ev_dyndt1.png',
- 			'https://res.cloudinary.com/aman-anand/image/upload/v1582530880/shivBhairav2020/projects/madanpur/scan0998-1_tvjcgz_dlqmdq.png'
+ 			'https://res.cloudinary.com/aman-anand/image/upload/v1582805251/shivBhairav2020/projects/madanpur/madanpur_plotting_map-1_2_ssjfsj.png'
  			
 			 
 			 
