@@ -33,8 +33,8 @@
  		return re.test(String(email).toLowerCase());
  	}
  	$('document').ready(function ($) {
- 		$('#custom-open-map').click(function (e) {
- 			window.open('https://www.google.com/maps/search/?api=1&query=23.394334,85.331864', '_blank');
+ 		$('#custom-open-map').click(function (e) {//23.395268, 85.329576
+ 			window.open('https://www.google.com/maps/search/?api=1&query=23.395268, 85.329576', '_blank');
 
  		});
  		$('#custom-open-map-main-office').click(function (e) {
