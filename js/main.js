@@ -152,6 +152,56 @@
                 <img src="${project1Images[i]}"  class="project2-images" 
                 style="width: 20rem;height: 20rem;object-fit: cover" alt="">
                 </a>
+			</div>`);
+			if(i==project1Images.length-1){
+				$('#project1-images').append(`<div class="col-lg-4  p-3" >
+                <a href="/project-gallery.html" target="">
+                <img src="https://res.cloudinary.com/aman-anand/image/upload/v1583609731/shivBhairav2020/projects/anandVihar/project_gallary/1_yuvml6.jpg"  class="project2-images" 
+                style="width: 20rem;height: 20rem;object-fit: cover" alt="">
+                Project Gallery</a>
+            </div>`);
+			}
+ 		}
+ 		const anandVihar_gallery = [ 
+			 'https://res.cloudinary.com/aman-anand/image/upload/v1583609731/shivBhairav2020/projects/anandVihar/project_gallary/1_yuvml6.jpg',
+			 'https://res.cloudinary.com/aman-anand/image/upload/v1583609734/shivBhairav2020/projects/anandVihar/project_gallary/2_aotvhj.jpg',
+			 'https://res.cloudinary.com/aman-anand/image/upload/v1583609732/shivBhairav2020/projects/anandVihar/project_gallary/3_tdjcve.jpg',
+			 'https://res.cloudinary.com/aman-anand/image/upload/v1583609735/shivBhairav2020/projects/anandVihar/project_gallary/4_jlrwue.jpg',
+			 'https://res.cloudinary.com/aman-anand/image/upload/v1583609736/shivBhairav2020/projects/anandVihar/project_gallary/5_f3nfzn.jpg',
+			 'https://res.cloudinary.com/aman-anand/image/upload/v1583609732/shivBhairav2020/projects/anandVihar/project_gallary/6_hbgkzf.jpg',
+			 'https://res.cloudinary.com/aman-anand/image/upload/v1583609732/shivBhairav2020/projects/anandVihar/project_gallary/7_cuvk8v.jpg',
+			 'https://res.cloudinary.com/aman-anand/image/upload/v1583609733/shivBhairav2020/projects/anandVihar/project_gallary/8_jpjavo.jpg',
+			 'https://res.cloudinary.com/aman-anand/image/upload/v1583609735/shivBhairav2020/projects/anandVihar/project_gallary/9_nuhl5x.jpg',
+		 'https://res.cloudinary.com/aman-anand/image/upload/v1583609737/shivBhairav2020/projects/anandVihar/project_gallary/10_i3hh0v.jpg',
+		 'https://res.cloudinary.com/aman-anand/image/upload/v1583609738/shivBhairav2020/projects/anandVihar/project_gallary/11_jrzskn.jpg',
+		 'https://res.cloudinary.com/aman-anand/image/upload/v1583609739/shivBhairav2020/projects/anandVihar/project_gallary/12_mpd9mb.jpg',
+		 'https://res.cloudinary.com/aman-anand/image/upload/v1583609737/shivBhairav2020/projects/anandVihar/project_gallary/13_zwumud.jpg',
+		 'https://res.cloudinary.com/aman-anand/image/upload/v1583609568/shivBhairav2020/projects/anandVihar/project_gallary/day_2-_1_n6tre4.jpg',
+		 'https://res.cloudinary.com/aman-anand/image/upload/v1583609563/shivBhairav2020/projects/anandVihar/project_gallary/day_2-_2_g0xil7.jpg',
+		 'https://res.cloudinary.com/aman-anand/image/upload/v1583609557/shivBhairav2020/projects/anandVihar/project_gallary/day_2-_3_ryghbe.jpg',
+		 'https://res.cloudinary.com/aman-anand/image/upload/v1583609599/shivBhairav2020/projects/anandVihar/project_gallary/day_2-_4_qll1w6.jpg',
+		 'https://res.cloudinary.com/aman-anand/image/upload/v1583609579/shivBhairav2020/projects/anandVihar/project_gallary/day_2-_5_ay072a.jpg',
+		 'https://res.cloudinary.com/aman-anand/image/upload/v1583609567/shivBhairav2020/projects/anandVihar/project_gallary/day_2-_6_ohmgeh.jpg',
+		 'https://res.cloudinary.com/aman-anand/image/upload/v1583609576/shivBhairav2020/projects/anandVihar/project_gallary/day_2-_7_iqrglm.jpg',
+		 'https://res.cloudinary.com/aman-anand/image/upload/v1583609621/shivBhairav2020/projects/anandVihar/project_gallary/day_2-_8_lkf0un.jpg',
+		 'https://res.cloudinary.com/aman-anand/image/upload/v1583609577/shivBhairav2020/projects/anandVihar/project_gallary/day_2-_9_lf2dos.jpg', 
+		 'https://res.cloudinary.com/aman-anand/image/upload/v1583609621/shivBhairav2020/projects/anandVihar/project_gallary/day_2-_10_t4jx6k.jpg',
+		 'https://res.cloudinary.com/aman-anand/image/upload/v1583609588/shivBhairav2020/projects/anandVihar/project_gallary/day_2-_11_t4bzjc.jpg',
+		 'https://res.cloudinary.com/aman-anand/image/upload/v1583609603/shivBhairav2020/projects/anandVihar/project_gallary/day_2-_12_r54pkj.jpg',
+		 'https://res.cloudinary.com/aman-anand/image/upload/v1583609599/shivBhairav2020/projects/anandVihar/project_gallary/day_2-_13_dhpqr1.jpg',
+		 'https://res.cloudinary.com/aman-anand/image/upload/v1583609610/shivBhairav2020/projects/anandVihar/project_gallary/day_2-_14_r090mw.jpg',
+		 'https://res.cloudinary.com/aman-anand/image/upload/v1583609607/shivBhairav2020/projects/anandVihar/project_gallary/day_2-_15_bj6dpj.jpg',
+		 'https://res.cloudinary.com/aman-anand/image/upload/v1583609614/shivBhairav2020/projects/anandVihar/project_gallary/day_2-_16_q88qwc.jpg',
+		 'https://res.cloudinary.com/aman-anand/image/upload/v1583609620/shivBhairav2020/projects/anandVihar/project_gallary/day_2-_17_ymtuot.jpg',
+		 
+		];
+ 		
+ 		for (let i = 0; i < anandVihar_gallery.length; i++) {
+ 			$('#project-gallery-images').append(`<div class="col-lg-4  p-3" >
+                <a href="${anandVihar_gallery[i]}" target="_blank">
+                <img src="${anandVihar_gallery[i]}"  class="project2-images" 
+                style="width: 20rem;height: 20rem;object-fit: cover" alt="">
+                </a>
             </div>`);
  		}
  	});
