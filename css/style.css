@@ -10037,3 +10037,11 @@ input{
 #custom-open-map-main-office  {
   cursor: pointer;
   }
+  .container-info{
+    display: flex;
+    
+  }
+  @media (max-width: 767.98px) {
+    .container-info {
+      justify-content: end; } }
+  
