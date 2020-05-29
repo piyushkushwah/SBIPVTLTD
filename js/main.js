@@ -34,7 +34,8 @@
  	}
  	$('document').ready(function ($) {
  		$('#custom-open-map').click(function (e) {//23.395268, 85.329576
- 			window.open('https://www.google.com/maps/search/?api=1&query=23.395268, 85.329576', '_blank');
+ 			// window.open('https://www.google.com/maps/search/?api=1&query=23.395268, 85.329576', '_blank');
+ 			window.open('https://goo.gl/maps/Pf9yAyg9Ts2JmYqm9', '_blank');
 
  		});
  		$('#custom-open-map-main-office').click(function (e) {
