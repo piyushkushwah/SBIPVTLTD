@@ -196,9 +196,14 @@
 		 'https://res.cloudinary.com/aman-anand/image/upload/v1583609620/shivBhairav2020/projects/anandVihar/project_gallary/day_2-_17_ymtuot.jpg',
 		 
 		];
- 		
+		 let k="day";
+		 let p=1;
  		for (let i = 0; i < anandVihar_gallery.length; i++) {
- 			$('#project-gallery-images').append(`<div class="col-lg-4  p-3" >
+			 // $('#project-gallery-images').append(`<div class="col-lg-4  p-3" >
+			 if(i!==0 && i%7==0){
+				 p++;
+			 }
+ 			$(`#${k+p}`).append(`<div class="col-lg-4  p-3" >
                 <a href="${anandVihar_gallery[i]}" target="_blank">
                 <img src="${anandVihar_gallery[i]}"  class="project2-images" 
                 style="width: 20rem;height: 20rem;object-fit: cover" alt="">
