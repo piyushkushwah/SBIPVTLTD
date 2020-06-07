@@ -148,6 +148,10 @@
  		// 	'https://res.cloudinary.com/aman-anand/image/upload/v1582530878/shivBhairav2020/projects/anandVihar/av03_o1bijc_yqynnr.png'
  		// ];
  		for (let i = 0; i < project1Images.length; i++) {
+			 if (i==project1Images.length-2) {
+				$('#project1-images').append(`<div class="col-lg-4  p-3" ><h3><br> Note: Plan for first 50 plots for phase 1.</h3></div>`);
+
+			 }
  			$('#project1-images').append(`<div class="col-lg-4  p-3" >
                 <a href="${project1Images[i]}" target="_blank">
                 <img src="${project1Images[i]}"  class="project2-images" 
